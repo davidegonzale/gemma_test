@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
+*.env
+.envrc
+
+# Conda
+*.conda
+*.lock
+*.yml
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# Outputs
+outputs/
