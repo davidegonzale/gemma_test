@@ -7,4 +7,4 @@ ipython-sql
 matplotlib
 prettytable
 streamlit
-
+seaborn
