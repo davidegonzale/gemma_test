@@ -55,6 +55,7 @@ jupyter notebook notebooks/01_analysis.ipynb
 
 - All SQL logic is stored in separate .sql files for reuse and modularity.
 - It's supposed to not be OS-specific or Conda-only commands to be required.
-- I tried to stick to no more than 2 hours spent in the task; started 18:00 and finished 20:03 CEST 11.07.2025. 
+- I tried to stick to no more than 2 hours spent in the task; started 18:00 and finished 20:03 CEST 11.07.2025.
+- After testing as a user I ran into some issues so I had to implement some changes for simplicity and therefore ended up spending a bit more time on it.  
 
 
