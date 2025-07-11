@@ -36,7 +36,7 @@ Created using Conda. You can recreate it with:
 
 ```bash
 conda env create -f environment.yml
-conda activate gemma_test
+conda activate gemma_test # Install dependencies
 ```
 
 ```bash
