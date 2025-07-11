@@ -45,21 +45,7 @@ source venv/bin/activate      # On Windows: venv\Scripts\activate
 pip install -r requirements.txt # Install dependencies
 ```
 
-### 3. Add DB credentials
-
-Create a **.env** file in the root directory with the following content:
-
-```
-DB_USER=c50c162d93e1b9027aafe01f4915371e
-DB_PASS=f1c1e1f88935a9c21b05e200cc938c0c
-DB_HOST=candidate-testing.cowkpei4bgel.eu-central-1.rds.amazonaws.com
-DB_PORT=5432
-DB_NAME=hiring_test
-```
-This keeps credentials safe and avoids hardcoding them into the notebook.
-
-
-### Run it
+### 3. Run it
 
 ```bash
 jupyter notebook notebooks/01_analysis.ipynb
