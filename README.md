@@ -58,4 +58,20 @@ jupyter notebook notebooks/01_analysis.ipynb
 - I tried to stick to no more than 2 hours spent in the task; started 18:00 and finished 20:03 CEST 11.07.2025.
 - After testing as a user I ran into some issues so I had to implement some changes for simplicity and therefore ended up spending a bit more time on it.  
 
+### Extra: Streamlit Dashboard
+
+To enhance the usability of the analysis, an interactive Streamlit app is included. This app connects to the same database and provides an intuitive interface to:
+
+- Select one or more surgeons for comparison.
+- Visualize the average improvement scores using a bar chart.
+- Explore improvement distributions via boxplots.
+- Review detailed patient-level data interactively.
+
+To run the app locally:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+
 

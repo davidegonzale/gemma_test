@@ -6,4 +6,5 @@ python-dotenv
 ipython-sql
 matplotlib
 prettytable
+streamlit
 
