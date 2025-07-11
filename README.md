@@ -20,11 +20,18 @@ Analyze surgical performance data for hip replacement operations. Identify the *
 
 ## How to run
 
-The task can be run locally, I suggest using a virtual environment (in my case I used Conda) with the environment.yml file, and activate the
+The task can be run locally, I suggest using a virtual environment (in my case I used Conda) install the environment.yml file, and activate the
 environment. 
 
+### 1. Unzip & Navigate
 
-### Environment
+Download and unzip the `gemma_test.zip` file. Then navigate into the project folder:
+
+```bash
+cd gemma_test
+```
+
+### 2. Set up a virtual environment
 Created using Conda. You can recreate it with:
 
 ```bash
@@ -32,9 +39,36 @@ conda env create -f environment.yml
 conda activate gemma_test
 ```
 
-### Run
+```bash
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+pip install -r requirements.txt # Install dependencies
+```
+
+### 3. Add DB credentials
+
+Create a **.env** file in the root directory with the following content:
+
+```
+DB_USER=c50c162d93e1b9027aafe01f4915371e
+DB_PASS=f1c1e1f88935a9c21b05e200cc938c0c
+DB_HOST=candidate-testing.cowkpei4bgel.eu-central-1.rds.amazonaws.com
+DB_PORT=5432
+DB_NAME=hiring_test
+```
+This keeps credentials safe and avoids hardcoding them into the notebook.
+
+
+### Run it
 
 ```bash
 jupyter notebook notebooks/01_analysis.ipynb
 ```
+
+### Notes 
+
+- All SQL logic is stored in separate .sql files for reuse and modularity.
+- It's supposed to not be OS-specific or Conda-only commands to be required.
+- I tried to stick to no more than 2 hours spent in the task; started 18:00 and finished 20:03 CEST 11.07.2025. 
+
 

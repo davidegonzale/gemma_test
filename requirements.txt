@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+psycopg2-binary
+jupyter
+python-dotenv
+ipython-sql
+matplotlib
+prettytable
